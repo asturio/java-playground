@@ -1,4 +1,4 @@
-package karameikos.bogus.threads;
+package bogus.karameikos.concurrency;
 
 public class SimpleThreads {
 

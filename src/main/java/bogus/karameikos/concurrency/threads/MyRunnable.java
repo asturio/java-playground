@@ -1,4 +1,4 @@
-package karameikos.bogus.concurrency.threads;
+package bogus.karameikos.concurrency.threads;
 
 public class MyRunnable implements Runnable {
     private final long countUntil;

@@ -1,4 +1,4 @@
-package karameikos.bogus.hanoi;
+package bogus.karameikos.hanoi;
 
 import org.junit.Assert;
 import org.junit.Test;

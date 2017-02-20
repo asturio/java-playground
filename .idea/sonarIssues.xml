@@ -8,6 +8,36 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/bogus/karameikos/concurrency/CrawledSites.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/bogus/karameikos/wicket/HelloWorld.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/bogus/karameikos/wicket/HelloWorld.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/bogus/karameikos/wicket/HelloWorldApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/karameikos/bogus/concurrency/threads/MyRunnable.java">
           <value>
             <set />
@@ -19,6 +49,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/karameikos/bogus/threads/SimpleThreads.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/bogus/karameikos/hanoi/HanoiTest.java">
           <value>
             <set />
           </value>
