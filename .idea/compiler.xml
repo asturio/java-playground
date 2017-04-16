@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java-playground" />
+        <module name="wicket-quickstart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="java-playground" target="1.8" />
+      <module name="wicket-quickstart" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
