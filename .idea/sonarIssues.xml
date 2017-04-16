@@ -23,6 +23,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/bogus/karameikos/locks/Safelock.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/bogus/karameikos/wicket/HelloWorld.html">
           <value>
             <set />
