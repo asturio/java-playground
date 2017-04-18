@@ -83,6 +83,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/wicket-quickstart/src/test/jetty/jetty-ssl.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../organize/SwingDemo/SwingDemo.iml">
           <value>
             <set />
