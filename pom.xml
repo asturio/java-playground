@@ -3,8 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>bogus.karameikos</groupId>
     <artifactId>java-playground</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>jpa_hibernate</module>
+    </modules>
     <name>java-playground</name>
     <url>https://github.com/asturio/java-playground</url>
 

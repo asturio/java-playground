@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java-playground" />
+        <module name="jpa_hibernate" />
         <module name="wicket-quickstart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="java-playground" target="1.8" />
+      <module name="jpa_hibernate" target="1.8" />
       <module name="wicket-quickstart" target="1.8" />
     </bytecodeTargetLevel>
   </component>

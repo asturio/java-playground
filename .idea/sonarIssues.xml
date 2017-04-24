@@ -13,6 +13,46 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/java/com/test/jpa/Student.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/java/org/world/entity/Citizen.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/java/org/world/entity/Country.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/java/org/world/entity/Student.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/java/org/world/manager/PersistentStudentOperator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/java/org/world/manager/PersistetOperator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/resources/META-INF/persistence.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
