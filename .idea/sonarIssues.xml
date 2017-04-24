@@ -38,6 +38,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/java/org/world/manager/PersistentOperator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/java/org/world/manager/PersistentStudentOperator.java">
           <value>
             <set />
