@@ -26,7 +26,6 @@ public class PersistentStudentOperator {
     }
 
     private void insert() {
-
         //--------------Sample data --------------
         Student s1 = new Student();
         s1.setFirstName("Papa");
