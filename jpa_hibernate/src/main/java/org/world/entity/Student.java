@@ -6,7 +6,6 @@ import javax.persistence.Id;
 
 @Entity(name = "student")
 public class Student implements java.io.Serializable {
-
     @Id
     @Column(insertable = true, unique = true, length = 225, updatable = true)
     private Integer id;
@@ -14,9 +13,16 @@ public class Student implements java.io.Serializable {
     private String name;
     @Column
     private String firstName;
-
-
     public Student() {
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", firstName='" + firstName + '\'' +
+                '}';
     }
 
     public Integer getId() {

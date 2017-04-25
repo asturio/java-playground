@@ -9,15 +9,15 @@ import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 import java.util.List;
 
-public class PersistentStudentOperator {
+public class StudentJpaOperator {
     private EntityManagerFactory emf;
 
-    public PersistentStudentOperator() {
+    public StudentJpaOperator() {
         emf = Persistence.createEntityManagerFactory("AsturioPU");
     }
 
     public static void main(String[] args) {
-        PersistentStudentOperator po = new PersistentStudentOperator();
+        StudentJpaOperator po = new StudentJpaOperator();
 
         po.insert();
 
