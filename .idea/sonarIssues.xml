@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/fragment.java">
           <value>
             <set />
@@ -53,12 +58,67 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/java/org/world/manager/StudentJpaOperator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/java/org/world/spring/StudenSpringConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/java/org/world/spring/StudentDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/java/org/world/spring/StudentService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/java/org/world/spring/StudentSpringConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/resources/META-INF/persistence.xml">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/main/resources/persistence-h2.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/test/java/org/world/StudenSpringTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jpa_hibernate/src/test/java/org/world/StudentSpringTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springweb/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springweb/src/main/java/bogus/karameikos/springmvc/AppConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springweb/src/main/webapp/WEB-INF/web.xml">
           <value>
             <set />
           </value>
