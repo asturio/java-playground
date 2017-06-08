@@ -1,5 +1,6 @@
-package bogus.karameikos.hanoi;
+package test.java.bogus.karameikos.hanoi;
 
+import main.java.bogus.karameikos.hanoi.Stack;
 import org.junit.Assert;
 import org.junit.Test;
 

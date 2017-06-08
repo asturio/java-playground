@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hanoi/hanoi.iml" filepath="$PROJECT_DIR$/hanoi/hanoi.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-playground.iml" filepath="$PROJECT_DIR$/java-playground.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpa_hibernate/jpa_hibernate.iml" filepath="$PROJECT_DIR$/jpa_hibernate/jpa_hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/wicket-quickstart/wicket-quickstart.iml" filepath="$PROJECT_DIR$/wicket-quickstart/wicket-quickstart.iml" />
