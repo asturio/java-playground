@@ -1,4 +1,4 @@
-package main.java.bogus.karameikos.concurrency;
+package bogus.karameikos.concurrency;
 
 import java.util.ArrayList;
 import java.util.List;

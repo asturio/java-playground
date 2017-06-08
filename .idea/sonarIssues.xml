@@ -18,6 +18,36 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/hanoi/src/main/java/bogus/karameikos/concurrency/CrawledSites.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/hanoi/src/main/java/bogus/karameikos/concurrency/MyDataStructure.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/hanoi/src/main/java/bogus/karameikos/concurrency/SimpleThreads.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/hanoi/src/main/java/bogus/karameikos/concurrency/threads/MyRunnable.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/hanoi/src/main/java/bogus/karameikos/hanoi/Stack.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/hanoi/src/main/java/bogus/karameikos/locks/Safelock.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/hanoi/src/test/java/bogus/karameikos/hanoi/HanoiTest.java">
           <value>
             <set />

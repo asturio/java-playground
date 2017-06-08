@@ -1,4 +1,4 @@
-package main.java.bogus.karameikos.locks;
+package bogus.karameikos.locks;
 
 import java.util.Random;
 import java.util.concurrent.locks.Lock;

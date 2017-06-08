@@ -1,4 +1,4 @@
-package main.java.bogus.karameikos.hanoi;
+package bogus.karameikos.hanoi;
 
 /**
  * Created by claudio on 29.01.17.
