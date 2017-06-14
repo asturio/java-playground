@@ -30,12 +30,10 @@ public class MyResourceTest {
         // c.configuration().enable(new org.glassfish.jersey.media.json.JsonJaxbFeature());
 
         target = c.target(Main.BASE_URI);
-        System.out.println("Target: " + target);
     }
 
     @AfterClass
     public static void tearDown() throws Exception {
-        System.out.println("Send stop() to server.");
         server.stop();
     }
 
