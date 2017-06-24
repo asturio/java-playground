@@ -13,6 +13,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/.idea/compiler.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/hanoi/pom.xml">
           <value>
             <set />
@@ -49,6 +54,36 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/hanoi/src/test/java/bogus/karameikos/hanoi/HanoiTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jersey-swagger/jersey-resource/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jersey-swagger/jersey-server/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jersey-swagger/jersey-war/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jersey-swagger/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jersey-swagger/src/main/java/bogus/karameikos/swagger/example/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jersey-swagger/src/test/java/bogus/karameikos/swagger/example/MyResourceTest.java">
           <value>
             <set />
           </value>
@@ -99,6 +134,61 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/rest-service-parent/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/rest-service-parent/rest-service-resources/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/rest-service-parent/rest-service-resources/src/main/java/bogus/karameikos/jersey/model/Person.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/rest-service-parent/rest-service-resources/src/main/java/bogus/karameikos/jersey/resource/FamilyResource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/rest-service-parent/rest-service-resources/src/main/java/bogus/karameikos/jersey/resource/MyResource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/rest-service-parent/rest-service-resources/src/main/java/bogus/karameikos/jersey/resource/Person.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/rest-service-parent/rest-service-server/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/rest-service-parent/rest-service-server/src/main/java/bogus/karameikos/jersey/server/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/rest-service-parent/rest-service-war/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/rest-service-parent/rest-service-war/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/simple-swagger/pom.xml">
           <value>
             <set />
           </value>
