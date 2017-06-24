@@ -8,7 +8,7 @@
     <modules>
         <module>hanoi</module>
         <module>jpa_hibernate</module>
-        <module>simple-swagger</module>
+        <module>rest-service-parent</module>
         <module>wicket-quickstart</module>
     </modules>
     <name>java-playground</name>

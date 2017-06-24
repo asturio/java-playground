@@ -1,4 +1,4 @@
-package bogus.karameikos.swagger.example;
+package bogus.karameikos.jersey.resource;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

@@ -1,9 +1,12 @@
-package bogus.karameikos.swagger.example;
+package bogus.karameikos.jersey.resource;
+
+import bogus.karameikos.jersey.model.Person;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import java.util.Collections;
 
 @Path("family")
 public class FamilyResource {
@@ -12,11 +15,13 @@ public class FamilyResource {
     @Path("getone")
     public Person getOne() {
         Person person = new Person();
-        person.setName("Max", "Musterman");
+        person.setFirstName("Max");
+        person.setLastName("Musterman");
 
         Person child = new Person();
-        child.setName("Maxi", "Musterkind");
-        person.addChild(child);
+        child.setFirstName("Maxi");
+        child.setLastName("Musterkind");
+        person.setChildren(Collections.singletonList(child));
         return person;
     }
 }

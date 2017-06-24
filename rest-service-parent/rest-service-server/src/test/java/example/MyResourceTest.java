@@ -1,14 +1,15 @@
-package bogus.karameikos.swagger.example;
+package example;
+
+import bogus.karameikos.jersey.server.Main;
+import org.glassfish.grizzly.http.server.HttpServer;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 
-import org.glassfish.grizzly.http.server.HttpServer;
-
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class MyResourceTest {
@@ -34,7 +35,7 @@ public class MyResourceTest {
 
     @AfterClass
     public static void tearDown() throws Exception {
-        server.stop();
+        server.shutdownNow();
     }
 
     /**

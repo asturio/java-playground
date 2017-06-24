@@ -1,4 +1,4 @@
-package bogus.karameikos.swagger.example;
+package bogus.karameikos.jersey.server;
 
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
@@ -13,7 +13,7 @@ import java.net.URI;
  */
 public class Main {
     // Base URI the Grizzly HTTP server will listen on
-    public static final String BASE_URI = "http://localhost:8090/myapp/";
+    public static final String BASE_URI = "http://localhost:8090/api/";
 
     /**
      * Starts Grizzly HTTP server exposing JAX-RS resources defined in this application.
@@ -22,7 +22,7 @@ public class Main {
     public static HttpServer startServer() {
         // create a resource config that scans for JAX-RS resources and providers
         // in com.example package
-        final ResourceConfig rc = new ResourceConfig().packages("bogus.karameikos.swagger.example");
+        final ResourceConfig rc = new ResourceConfig().packages("bogus.karameikos.jersey.resource");
 
         // create and start a new instance of grizzly http server
         // exposing the Jersey application at BASE_URI
@@ -39,7 +39,7 @@ public class Main {
         System.out.println(String.format("Jersey app started with WADL available at "
                 + "%sapplication.wadl\nHit enter to stop it...", BASE_URI));
         System.in.read();
-        server.stop();
+        server.shutdownNow();
     }
 }
 
