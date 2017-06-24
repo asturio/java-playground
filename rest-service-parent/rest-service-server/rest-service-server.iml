@@ -12,13 +12,14 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="rest-service-resources" />
+    <orderEntry type="module" module-name="rest-service-resources" scope="RUNTIME" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jersey.media:jersey-media-moxy:2.25.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jersey.ext:jersey-entity-filtering:2.25.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.persistence:org.eclipse.persistence.moxy:2.6.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.persistence:org.eclipse.persistence.core:2.6.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.persistence:org.eclipse.persistence.asm:2.6.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish:javax.json:1.0.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.swagger:swagger-annotations:1.5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.jersey.containers:jersey-container-grizzly2-http:2.25.1" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.hk2.external:javax.inject:2.5.0-b32" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-common:2.25.1" level="project" />

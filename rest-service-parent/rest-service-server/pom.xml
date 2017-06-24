@@ -16,6 +16,7 @@
         <dependency>
             <groupId>bogus.karameikos</groupId>
             <artifactId>rest-service-resources</artifactId>
+            <scope>runtime</scope>
         </dependency>
 
         <dependency>

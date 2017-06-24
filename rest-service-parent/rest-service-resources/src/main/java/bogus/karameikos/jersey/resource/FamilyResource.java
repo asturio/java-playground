@@ -1,6 +1,7 @@
 package bogus.karameikos.jersey.resource;
 
 import bogus.karameikos.jersey.model.Person;
+import io.swagger.annotations.Api;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -9,6 +10,7 @@ import javax.ws.rs.core.MediaType;
 import java.util.Collections;
 
 @Path("family")
+@Api("Another Resource")
 public class FamilyResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
