@@ -188,6 +188,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/rest-service-parent/rest-service-war/src/main/webapp/info.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/simple-swagger/pom.xml">
           <value>
             <set />
