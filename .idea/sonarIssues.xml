@@ -258,6 +258,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/todo-dojo/src/main/java/bogus/karameikos/todo/model/Todo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo-dojo/src/main/java/bogus/karameikos/todo/model/TodoDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo-dojo/src/main/java/bogus/karameikos/todo/model/TodoPseudoDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/todo-dojo/src/main/java/bogus/karameikos/todo/resources/TodoResource.java">
           <value>
             <set />
@@ -279,6 +294,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/todo-dojo/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo-dojo/src/test/java/bogus/karameikos/todo/model/TodoPseudoDaoTest.java">
           <value>
             <set />
           </value>

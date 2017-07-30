@@ -1,6 +1,7 @@
 package bogus.karameikos.todo.resources;
 
 import bogus.karameikos.todo.model.Todo;
+import bogus.karameikos.todo.model.TodoPseudoDao;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -13,7 +14,6 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 import java.net.URI;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -21,8 +21,7 @@ import java.util.logging.Logger;
 public class TodoResource {
 
     private static final Logger logger = Logger.getLogger(TodoResource.class.getName());
-    private static final List<Todo> todoList = new ArrayList<>();
-    private static int maxId = 0;
+    private static final TodoPseudoDao dao = new TodoPseudoDao();
     @Context
     @SuppressWarnings("unused")
     private UriInfo uriInfo;
@@ -33,13 +32,10 @@ public class TodoResource {
         if (todo == null) {
             return Response.serverError().status(Response.Status.NOT_FOUND).build();
         } else {
-            synchronized (todoList) {
-                todoList.add(todo);
-                todo.setId(++maxId);
-            }
+            dao.add(todo);
             final String path = uriInfo.getPath() + "/" + Integer.toString(todo.getId());
             URI todoUri = uriInfo.getAbsolutePath().resolve(path);
-            logger.info("todoList = " + todoList);
+            logger.info("todoList = " + dao);
             return Response.created(todoUri).build();
         }
     }
@@ -47,14 +43,14 @@ public class TodoResource {
     @GET
     @Path("size")
     public int count() {
-        return todoList.size();
+        return dao.size();
     }
 
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public List<Todo> getAll() {
-        return todoList;
+        return dao.getAll();
     }
 
     @GET
