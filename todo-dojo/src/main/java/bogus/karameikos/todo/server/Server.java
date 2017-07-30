@@ -1,6 +1,6 @@
 package bogus.karameikos.todo.server;
 
-import bogus.karameikos.todo.server.resources.TodoResource;
+import bogus.karameikos.todo.resources.TodoResource;
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.server.ResourceConfig;

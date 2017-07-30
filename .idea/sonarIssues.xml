@@ -253,6 +253,36 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/todo-dojo/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo-dojo/src/main/java/bogus/karameikos/todo/resources/TodoResource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo-dojo/src/main/java/bogus/karameikos/todo/server/Server.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo-dojo/src/main/java/bogus/karameikos/todo/server/TodoApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo-dojo/src/main/java/bogus/karameikos/todo/server/resources/TodoResource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo-dojo/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/wicket-quickstart/pom.xml">
           <value>
             <set />

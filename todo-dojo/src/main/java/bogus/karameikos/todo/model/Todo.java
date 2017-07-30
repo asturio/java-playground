@@ -1,4 +1,4 @@
-package bogus.karameikos.todo.server.model;
+package bogus.karameikos.todo.model;
 
 public class Todo {
     private Integer id;

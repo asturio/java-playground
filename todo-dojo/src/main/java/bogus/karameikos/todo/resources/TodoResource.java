@@ -1,6 +1,6 @@
-package bogus.karameikos.todo.server.resources;
+package bogus.karameikos.todo.resources;
 
-import bogus.karameikos.todo.server.model.Todo;
+import bogus.karameikos.todo.model.Todo;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
