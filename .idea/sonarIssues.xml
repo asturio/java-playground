@@ -303,6 +303,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/todo-dojo/src/test/java/bogus/karameikos/todo/resources/TodoResourceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/wicket-quickstart/pom.xml">
           <value>
             <set />

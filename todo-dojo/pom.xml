@@ -53,9 +53,17 @@
             <artifactId>jersey-container-servlet</artifactId>
             <scope>runtime</scope>
         </dependency>
+
+        <!-- For Test -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.test-framework.providers</groupId>
+            <artifactId>jersey-test-framework-provider-jetty</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
