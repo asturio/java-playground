@@ -21,8 +21,6 @@ public class TodoPseudoDaoTest {
 
     @Test
     public void testInsertNull() {
-        final List<Todo> all = cut.getAll();
-        Assert.assertEquals("The list should be empty at start.", 0, cut.size());
         cut.add(null);
         Assert.assertEquals("Null should not be added.", 0, cut.size());
     }
@@ -53,6 +51,7 @@ public class TodoPseudoDaoTest {
     public void testGetAll() {
         List<Todo> all = cut.getAll();
         Assert.assertNotNull("There must be always a list.", all);
+        // TODO:2017-07-31:claudio.clemens:Test more
     }
 
 }

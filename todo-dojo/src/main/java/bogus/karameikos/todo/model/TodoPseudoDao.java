@@ -5,8 +5,8 @@ import java.util.Collections;
 import java.util.List;
 
 public class TodoPseudoDao {
-    private static final List<Todo> todoList = new ArrayList<>();
-    private static int maxId = 0;
+    private final List<Todo> todoList = new ArrayList<>();
+    private int maxId = 0;
 
     public int size() {
         return todoList.size();
