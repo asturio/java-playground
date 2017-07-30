@@ -14,16 +14,25 @@ public class TodoPseudoDao {
 
     public void add(Todo todo) {
         if (todo != null) {
-            todoList.add(todo);
-//        synchronized (todoList) {
             todo.setId(++maxId);
+            todoList.add(cloneTodo(todo));
+//        synchronized (todoList) {
 //        }
         }
-
-
     }
 
     public List<Todo> getAll() {
         return Collections.unmodifiableList(todoList);
+    }
+
+    private Todo cloneTodo(Todo source) {
+        Todo target = null;
+        if (source != null) {
+            target = new Todo();
+            target.setName(source.getName());
+            target.setBeschreibung(source.getBeschreibung());
+            target.setId(source.getId());
+        }
+        return target;
     }
 }

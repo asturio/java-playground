@@ -22,9 +22,23 @@ public class TodoResource {
 
     private static final Logger logger = Logger.getLogger(TodoResource.class.getName());
     private static final TodoPseudoDao dao = new TodoPseudoDao();
+
+    // Just a hack
+    static {
+        Todo todo = new Todo();
+        todo.setName("Todo1");
+        todo.setBeschreibung("Test Todo1.");
+        dao.add(todo);
+        todo.setName("Todo2");
+        todo.setBeschreibung("Test Todo2.");
+        dao.add(todo);
+        todo.setName("Todo3");
+        todo.setBeschreibung("Test Todo3.");
+        dao.add(todo);
+    }
+
     @Context
-    @SuppressWarnings("unused")
-    private UriInfo uriInfo;
+    private UriInfo uriInfo = null;
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
