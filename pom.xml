@@ -10,6 +10,7 @@
         <module>jpa_hibernate</module>
         <module>rest-service-parent</module>
         <module>wicket-quickstart</module>
+        <module>todo-dojo</module>
     </modules>
     <name>java-playground</name>
     <url>https://github.com/asturio/java-playground</url>

@@ -11,6 +11,7 @@
         <module name="rest-service-resources" />
         <module name="rest-service-server" />
         <module name="rest-service-war" />
+        <module name="todo-dojo" />
         <module name="wicket-quickstart" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="rest-service-resources" target="1.8" />
       <module name="rest-service-server" target="1.8" />
       <module name="rest-service-war" target="1.8" />
+      <module name="todo-dojo" target="1.8" />
       <module name="wicket-quickstart" target="1.8" />
     </bytecodeTargetLevel>
   </component>
