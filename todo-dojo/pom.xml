@@ -46,7 +46,6 @@
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-moxy</artifactId>
-            <scope>runtime</scope>
         </dependency>
         <dependency>
             <!-- For In Jetty deployable application with REST and GUI -->
