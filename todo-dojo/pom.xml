@@ -82,6 +82,10 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.4.6.v20170531</version>
                 <configuration>
+                    <webAppConfig>
+                        <defaultsDescriptor>src/test/resources/webdefault.xml</defaultsDescriptor>
+                    </webAppConfig>
+                    <scanIntervalSeconds>5</scanIntervalSeconds>
                     <httpConnector>
                         <port>8090</port>
                     </httpConnector>
