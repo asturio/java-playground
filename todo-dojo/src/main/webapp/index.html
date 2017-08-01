@@ -1,8 +1,29 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Startseite - TODOs</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<title>Startseite - TODOs</title>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
-<h1>TODOs</h1>
-</body>
+	<h1>TODOs</h1>
+	<h2>Übersicht</h2>
+	<script>
+	$.getJSON("http://localhost:8090/api/todo", function(json) {
+		console.log("success");
+		var items = [];
+		$.each(json, function(key, item) {
+			console.log("item  = " + item);
+			<!--console.log("value= " + value);-->
+			items.push("<li id='" + item.id + "'>" + item.name + "</li>");
+		});
+
+		$("<ul/>", {
+			"class": "my-new-list",
+			html: items.join("")
+		}).appendTo("body");
+	});
+	</script>
+
+	</body>
 </html>
