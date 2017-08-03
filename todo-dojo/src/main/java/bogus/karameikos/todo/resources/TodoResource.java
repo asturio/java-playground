@@ -4,6 +4,7 @@ import bogus.karameikos.todo.model.Todo;
 import bogus.karameikos.todo.model.TodoPseudoDao;
 
 import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -13,6 +14,7 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
+
 import java.net.URI;
 import java.util.List;
 import java.util.logging.Logger;
@@ -52,6 +54,11 @@ public class TodoResource {
             logger.info("todoList = " + dao);
             return Response.created(todoUri).build();
         }
+    }
+    @DELETE
+    @Path("/{id}")
+    public void delete(@PathParam("id")int id) {
+    	dao.delete(id);
     }
 
     @GET

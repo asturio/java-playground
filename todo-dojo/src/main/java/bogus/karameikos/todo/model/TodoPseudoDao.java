@@ -2,6 +2,7 @@ package bogus.karameikos.todo.model;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class TodoPseudoDao {
@@ -35,4 +36,15 @@ public class TodoPseudoDao {
         }
         return target;
     }
+
+	public void delete(int id)
+	{
+		Iterator<Todo> it = todoList.iterator();
+		while(it.hasNext()){
+			Todo todo = it.next();
+			if(todo.getId() == id){
+				it.remove();
+			}
+		}
+	}
 }

@@ -3,9 +3,93 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 	<title>Startseite - TODOs</title>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript">
+	
+    function updateList() {
+    	$('#uebersicht').remove();
+    	$.getJSON("http://localhost:9151/api/todo", function(json) {
+    		console.log("success");
+    		var items = [];
+    		$.each(json, function(key, item) {
+    			console.log("item  = " + item);
+    			<!--console.log("value= " + value);-->
+    			if (item.url!= "undefined") {
+        			items.push("<li id='" + item.id + "'><a href='" + item.url + "'>" + item.name + "</a>: "+ item.beschreibung + "<button onclick='deleteTODO("+item.id+")'>X</button>" + "</li>");    				
+    			} else {
+    				items.push("<li id='" + item.id + "'>" + item.name + ": "+ item.beschreibung + "</li>");
+    			}
+    		});
+
+    		$("<ul/>", {
+    			"class": "my-new-list",
+    			"id": "uebersicht",
+    			html: items.join("")
+    		}).appendTo("body");
+    	});
+    }
+    
+    function deleteTODO(id){
+	    return jQuery.ajax({
+	        'type': 'DELETE',
+	        'url': "http://localhost:9151/api/todo/" + id,
+	        'contentType': 'application/json',
+	        'success': function() {updateList();}
+	    });
+	}
+    
+    
+	</script>	
 </head>
-<body>
+<body onload="updateList()">
     <h1>TODOs</h1>
     <h2>Übersicht</h2>
+    <script>
+
+    $(document).ready(function() {
+    	  $.ajaxSetup({ cache: false });
+    });
+    
+    function reload() {
+    	location.reload();
+    }
+    
+	$.postJSON = function(url, data, callback) {
+	    return jQuery.ajax({
+	        'type': 'POST',
+	        'url': url,
+	        'contentType': 'application/json',
+	        'data': JSON.stringify(data),
+	        'dataType': 'json',
+	        'success': callback
+	    });
+	};
+	
+	function addItem() {
+		var todo = $('#todo').val();
+		var beschreibung = $('#beschreibung').val();
+		var url = $('#url').val();
+		var datum = $('#datum').val();
+
+		
+		item = {}
+		item["name"] = todo;
+		item["beschreibung"] = beschreibung;
+		item["url"] = beschreibung;
+		item["datum"] = beschreibung;
+		
+		$.postJSON("http://localhost:9151/api/todo", item, updateList);
+	}
+	
+	
+	</script>
+	<form id="testForm" action="#">
+		<label for="todo">TODO:</label> <input name="todo" id="todo"/><br/>
+		<label>Beschreibung:</label> <input id="beschreibung"/><br/>
+		<label>URL:</label> <input id="url"/><br/>
+		<label>Datum:</label> <input id="datum"/>
+		<button onclick="addItem()">submit</button>
+	</form>
+	<button onclick="location.reload()">Neuladen</button>
 </body>
 </html>

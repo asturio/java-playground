@@ -1,9 +1,13 @@
 package bogus.karameikos.todo.model;
 
+import java.util.Date;
+
 public class Todo {
     private int id;
     private String name;
     private String beschreibung;
+    private String url;
+    private Date datum;
 
     public int getId() {
         return id;
@@ -28,4 +32,24 @@ public class Todo {
     public void setBeschreibung(String beschreibung) {
         this.beschreibung = beschreibung;
     }
+
+	public String getUrl()
+	{
+		return url;
+	}
+
+	public void setUrl(String url)
+	{
+		this.url = url;
+	}
+
+	public Date getDatum()
+	{
+		return datum;
+	}
+
+	public void setDatum(Date datum)
+	{
+		this.datum = datum;
+	}
 }
