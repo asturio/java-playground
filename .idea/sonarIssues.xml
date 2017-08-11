@@ -298,6 +298,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/todo-dojo/src/main/webapp/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/todo-dojo/src/test/java/bogus/karameikos/todo/model/TodoPseudoDaoTest.java">
           <value>
             <set />
