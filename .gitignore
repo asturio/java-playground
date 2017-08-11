@@ -1,3 +1,8 @@
 target
 .idea/workspace.xml
 *~
+# Eclipse files
+.classpath
+.metadata/
+.project
+.settings/
