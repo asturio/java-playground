@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Startseite - TODOs</title>
+</head>
+<body>
+<h1>TODOs</h1>
+<script type="text/javascript">
+    console.log("Hallo Welt");
+    // ----receive function----v
+    function get_json(url, callback) {
+        http.get(url, function(res) {
+            var body = '';
+            res.on('data', function(chunk) {
+                body += chunk;
+            });
+
+            res.on('end', function() {
+                var response = JSON.parse(body);
+    // call function ----v
+                callback(response);
+            });
+        });
+    }
+
+             // -----------the url---v         ------------the callback---v
+    var mydata = get_json("/api/todo", function (resp) {
+        console.log(resp);
+    });
+
+    console.log("mydata: " + mydata);
+
+
+
+
+</script>
+Übersicht
+</body>
+</html>
