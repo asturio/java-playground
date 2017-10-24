@@ -4,7 +4,7 @@
         <groupId>bogus.karameikos</groupId>
         <artifactId>java-playground</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>..</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
