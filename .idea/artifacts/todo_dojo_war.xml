@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="todo-dojo:war">
-    <output-path>$PROJECT_DIR$/todo-dojo/target</output-path>
-    <root id="archive" name="todo-dojo-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="todo-dojo:war exploded" />
-    </root>
-  </artifact>
-</component>

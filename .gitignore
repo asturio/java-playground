@@ -1,6 +1,8 @@
 target
-.idea/workspace.xml
 *~
+# IntelliJ files
+.idea/
+**/*.iml
 # Eclipse files
 .classpath
 .metadata/
