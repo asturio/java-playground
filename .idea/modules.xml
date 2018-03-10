@@ -5,10 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/hanoi/hanoi.iml" filepath="$PROJECT_DIR$/hanoi/hanoi.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-playground.iml" filepath="$PROJECT_DIR$/java-playground.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpa_hibernate/jpa_hibernate.iml" filepath="$PROJECT_DIR$/jpa_hibernate/jpa_hibernate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rest-service-parent/rest-service-parent.iml" filepath="$PROJECT_DIR$/rest-service-parent/rest-service-parent.iml" group="rest-service-parent and modules" />
-      <module fileurl="file://$PROJECT_DIR$/rest-service-parent/rest-service-resources/rest-service-resources.iml" filepath="$PROJECT_DIR$/rest-service-parent/rest-service-resources/rest-service-resources.iml" group="rest-service-parent and modules" />
-      <module fileurl="file://$PROJECT_DIR$/rest-service-parent/rest-service-server/rest-service-server.iml" filepath="$PROJECT_DIR$/rest-service-parent/rest-service-server/rest-service-server.iml" group="rest-service-parent and modules" />
-      <module fileurl="file://$PROJECT_DIR$/rest-service-parent/rest-service-war/rest-service-war.iml" filepath="$PROJECT_DIR$/rest-service-parent/rest-service-war/rest-service-war.iml" group="rest-service-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/rest-service-parent/rest-service-parent.iml" filepath="$PROJECT_DIR$/rest-service-parent/rest-service-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-service-parent/rest-service-resources/rest-service-resources.iml" filepath="$PROJECT_DIR$/rest-service-parent/rest-service-resources/rest-service-resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-service-parent/rest-service-server/rest-service-server.iml" filepath="$PROJECT_DIR$/rest-service-parent/rest-service-server/rest-service-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-service-parent/rest-service-war/rest-service-war.iml" filepath="$PROJECT_DIR$/rest-service-parent/rest-service-war/rest-service-war.iml" />
       <module fileurl="file://$PROJECT_DIR$/todo-dojo/todo-dojo.iml" filepath="$PROJECT_DIR$/todo-dojo/todo-dojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/wicket-quickstart/wicket-quickstart.iml" filepath="$PROJECT_DIR$/wicket-quickstart/wicket-quickstart.iml" />
     </modules>
