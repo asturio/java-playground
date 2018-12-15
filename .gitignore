@@ -1,5 +1,6 @@
 target
-.idea/workspace.xml
+**/*.iml
+**/.idea/
 *~
 # Eclipse files
 .classpath
