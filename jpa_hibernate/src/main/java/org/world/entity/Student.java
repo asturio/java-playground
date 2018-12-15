@@ -8,7 +8,7 @@ import javax.persistence.Id;
 public class Student implements java.io.Serializable {
 
     @Id
-    @Column(insertable = true, unique = true, length = 225, updatable = true)
+    @Column(unique = true, length = 225)
     private Integer id;
     @Column
     private String name;

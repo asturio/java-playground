@@ -2,6 +2,9 @@ target
 **/*.iml
 **/.idea/
 *~
+# IntelliJ files
+.idea/
+**/*.iml
 # Eclipse files
 .classpath
 .metadata/
