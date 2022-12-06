@@ -11,6 +11,7 @@
         <module>jpa_hibernate</module>
         <module>rest-service-parent</module>
         <module>todo-dojo</module>
+        <module>itext-examples</module>
     </modules>
     <name>java-playground</name>
     <url>https://github.com/asturio/java-playground</url>
