@@ -1,8 +1,8 @@
 package org.world.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 @Entity(name = "student")
 public class Student implements java.io.Serializable {

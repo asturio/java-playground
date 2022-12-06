@@ -1,9 +1,9 @@
 package bogus.karameikos.todo.server;
 
+import jakarta.ws.rs.ApplicationPath;
 import org.glassfish.jersey.moxy.json.MoxyJsonFeature;
 import org.glassfish.jersey.server.ResourceConfig;
 
-import javax.ws.rs.ApplicationPath;
 
 @ApplicationPath("api")
 public class TodoApplication extends ResourceConfig {

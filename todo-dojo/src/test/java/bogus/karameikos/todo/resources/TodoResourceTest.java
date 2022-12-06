@@ -1,11 +1,11 @@
 package bogus.karameikos.todo.resources;
 
+import jakarta.ws.rs.core.Application;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.test.JerseyTest;
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import javax.ws.rs.core.Application;
 
 public class TodoResourceTest extends JerseyTest {
     @Override
@@ -16,7 +16,7 @@ public class TodoResourceTest extends JerseyTest {
     @Test
     public void testSize() {
         final int size = target("todo/size").request().get(Integer.class);
-        Assert.assertEquals("Size should return 3", 3, size);
+        Assertions.assertEquals(3, size, "Size should return 3");
     }
 
 }

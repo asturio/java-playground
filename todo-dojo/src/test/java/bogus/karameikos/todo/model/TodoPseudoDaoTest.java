@@ -1,28 +1,31 @@
 package bogus.karameikos.todo.model;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class TodoPseudoDaoTest {
     private TodoPseudoDao cut;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         cut = new TodoPseudoDao();
     }
 
     @Test
     public void testSize() {
-        Assert.assertEquals("At the beginning there shouldn't be any entries.", 0, cut.size());
+        assertEquals(0, cut.size(),"At the beginning there shouldn't be any entries.");
     }
 
     @Test
     public void testInsertNull() {
         cut.add(null);
-        Assert.assertEquals("Null should not be added.", 0, cut.size());
+        assertEquals( 0, cut.size(),"Null should not be added.");
     }
 
     @Test
@@ -30,7 +33,7 @@ public class TodoPseudoDaoTest {
         final Todo todo = new Todo();
         todo.setName("testSizeAfter1Insert");
         cut.add(todo);
-        Assert.assertEquals("Size after inserting one element should be 1.", 1, cut.size());
+        assertEquals(1, cut.size(),"Size after inserting one element should be 1.");
     }
 
     @Test
@@ -39,19 +42,18 @@ public class TodoPseudoDaoTest {
         todo.setId(0);
         todo.setName("Todo1");
         cut.add(todo);
-        Assert.assertNotEquals("ID cannot be 0.", 0, todo.getId());
+        assertNotEquals( 0, todo.getId(),"ID cannot be 0.");
         Todo todo2 = new Todo();
         todo.setName("Todo2");
         cut.add(todo2);
-        Assert.assertNotEquals("ID cannot be 0.", 0, todo2.getId());
-        Assert.assertNotEquals("Two different IDs should be different.", todo.getId(), todo2.getId());
+        assertNotEquals( 0, todo2.getId(),"ID cannot be 0.");
+        assertNotEquals( todo.getId(), todo2.getId(),"Two different IDs should be different.");
     }
 
     @Test
     public void testGetAll() {
         List<Todo> all = cut.getAll();
-        Assert.assertNotNull("There must be always a list.", all);
-        // TODO:2017-07-31:claudio.clemens:Test more
+        assertNotNull( all,"There must be always a list.");
     }
 
 }
