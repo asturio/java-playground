@@ -20,7 +20,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <assertj.version>3.23.1</assertj.version>
         <grizzly-http-server.version>4.0.0</grizzly-http-server.version>
-        <h2.version>2.1.214</h2.version>
+        <h2.version>2.2.220</h2.version>
         <hibernate-core.version>6.1.5.Final</hibernate-core.version>
         <jakarta.ws.rs-api.version>3.1.0</jakarta.ws.rs-api.version>
         <jersey-bom.version>3.1.0</jersey-bom.version>
