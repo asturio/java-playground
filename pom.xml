@@ -18,7 +18,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <assertj.version>3.23.1</assertj.version>
+        <assertj.version>3.27.7</assertj.version>
         <grizzly-http-server.version>4.0.0</grizzly-http-server.version>
         <h2.version>2.2.220</h2.version>
         <hibernate-core.version>6.1.5.Final</hibernate-core.version>
